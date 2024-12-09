@@ -425,6 +425,7 @@ for index, row in reports.iterrows():
 
 print("Unique B-MED tokens:", set(b_med_tokens))
 
+
 """Matching transcriptions and term explanations using semantic search
 * creating embeddings for medical terms and explanations, transcriptions
 * finding similarity between embeddings and matching the transcriptions with similar explanations
